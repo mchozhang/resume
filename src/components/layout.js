@@ -8,12 +8,10 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import content from "../resume.yaml"
 import Header from "./header"
 import "./layout.css"
 
 const Layout = ({ children }) => {
-  console.log(content);
 
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
