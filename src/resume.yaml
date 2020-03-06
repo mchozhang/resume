@@ -1,10 +1,108 @@
 # resume data
 
-title: Wenhao Zhang - Reusme
+title: Wenhao Zhang - Resume
 
-information:
+info:
   name: Wenhao Zhang
   job: Frontend / Backend Developer
   email: vivamcho@gmail.com
-  mobile: 0450-579961
+  phone: 0450-579961
   github: github.com/mchozhang
+  linkedin: linkedin.com/in/mchozhang
+
+education:
+  title: Education
+  items:
+    - name: University of Melbourne
+      degree: Master of Software Engineering
+      year: 2018.7 - 2020.7 (expected)
+
+    - name: Sun Yat-sen University, Guangzhou, China
+      degree: Software Engineering (Bachelor)
+      year: 2011.9 - 2015.7
+
+summary:
+  title: Summary
+  items:
+    - Versatile developer with 3 years of experience in web apps and client apps including the relevant
+      initialization and deployment processes.
+    - Fast learner, have mastered the key features of new techniques within short period in practical projects such
+      as Flask, Express, React.
+    - Deep understanding about Agile process, have worked in Agile team with people having various backgrounds.
+    - Write high-quality maintainable code which is consistent with the "Clean Code" handbook.
+    - Deep knowledge of computer science such as operating system, database and computer network.
+
+employment:
+  title: Employment
+  items:
+    - name: Vinzor Information Technology Ltd.
+      city: Guangzhou, China
+      year: 2015 - 2018
+      projects:
+        - name: Educational Private Cloud Desktop Management System
+          des: An IaaS cloud computing product that provides remote desktops to students and enables administrators
+            to configure the allocation process.
+          tech-stack: Openstack, Flask, jQuery, MySql, Apache, Shell, Python, Javascript
+          details:
+            - RESTful API design and implementation.
+            - Front-end development using Bootstrap, Ajax, jQuery.
+            - Created deployment script for the system to be deployed on offline Linux server.
+            - Code refactoring on log module to increase stability and reduce bugs.
+
+        - name: Mountable Storage Space Allocation System
+          des: Provides individual or shared storage spaces that can be mount on remote desktops and accessed like local disks.
+          tech-stack: Samba, Linux LVM(logical volume management), FTP
+          details:
+            - Independently designed and implemented this system including tech stack choice and functionality documentation.
+            - Encapsulated underlying samba APIs into high level services called by  the management system.
+
+        - name: Remote Desktop Client App
+          tech-stack: WPF( .Net C#), Android(Java), iOS, MacOS(obj-c), RDP
+          des: Client app that makes connection to remote desktop which can be operated just like a local computer.
+            The app includes windows, MacOS, Android, iOS versions.
+          details:
+            - Implemented 80% of core features, master the usages of different SDKs.
+            - Integrated RDP (remote desktop protocol) into different app frameworks.
+
+projects:
+  title: Other Projects
+  items:
+    - name: Assistive Technology Outcome Framework
+      info: group project, 2019
+      des: A web app that provides consumers and health practitioners with questionnaire tools to measure their outcome of using their assistive technologies.
+      demo: https://backend.at-outcomes.org
+      tech-stack: React, GraphQL, Material-UI, OAuth2, Typescript
+      details:
+        - Strictly followed Agile process during the 6-month development cycle, acquired high comments from our client NDIS staff and university supervisor.
+        - Participated in UI/UX design to meet special requirements of users with varied disabilities.
+
+    - name: Booker - Room Booking System
+      info: individual project, 2019
+      des: A demonstration web app to showcase software architecture design and pattern implementation for modern enterprise systems.
+      github: https://github.com/mchozhang/RoomBookingSystem
+      demo: https://hotel-booker.herokuapp.com
+      tech-stack: JavaEE, Tomcat, PostgreSql, Heroku
+      details:
+        - Independently designed and implemented the system layering and patterns that fit the designated features.
+        - School assignment that acquired full marks in the Software Design and Architecture course.
+
+skills:
+  title: Skills
+  items:
+    - title: Front-end Framework
+      content: React, Angular
+
+    - title: Front-end Library
+      content: jQuery, Material-UI, Bootstrap
+
+    - title: Backend-end Framework
+      content: Flask, Express, JavaEE
+
+    - title: Database
+      content: MySql, PostgreSql, Oracle MongoDB
+
+    - title: Client App
+      content: Windows WPF, Android(Java), iOS(obj-C)
+
+    - title: Programming Language
+      content: Python, Java, Go, Javascript, Node.js, Shell, C#
