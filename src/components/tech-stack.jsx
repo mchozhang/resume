@@ -2,18 +2,19 @@
  *
  */
 import React from "react"
+import "../style/tech-stack.css"
 import PropTypes from "prop-types"
 
 const TechStack = (props) => {
   const techniques = props.content.split(", ").map(
     (tech) =>
-      <a key={tech} style={{ display: "inline-block" }}>
+      <a key={tech} className="tech">
         {tech}
       </a>
   )
 
   return (
-    <div>
+    <div className="stack">
       {techniques}
     </div>
   )

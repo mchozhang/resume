@@ -1,0 +1,19 @@
+.company-header {
+  //margin-bottom: 10px;
+}
+
+.divider {
+  margin-bottom: 10px;
+  border-width: 0.8px;
+  border-color: #ffffff66;
+}
+
+
+.company-name {
+  font-size: medium;
+}
+
+.company-info {
+  display: inline-block;
+  margin-right: 20px;
+}

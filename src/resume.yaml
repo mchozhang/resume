@@ -42,7 +42,7 @@ employment:
         - name: Educational Private Cloud Desktop Management System
           des: An IaaS cloud computing product that provides remote desktops to students and enables administrators
             to configure the allocation process.
-          tech-stack: Openstack, Flask, jQuery, MySql, Apache, Shell, Python, Javascript
+          techStack: Openstack, Flask, jQuery, MySql, Apache, Shell, Python, Javascript
           details:
             - RESTful API design and implementation.
             - Front-end development using Bootstrap, Ajax, jQuery.
@@ -51,18 +51,18 @@ employment:
 
         - name: Mountable Storage Space Allocation System
           des: Provides individual or shared storage spaces that can be mount on remote desktops and accessed like local disks.
-          tech-stack: Samba, Linux LVM(logical volume management), FTP
+          techStack: Samba, Linux LVM(logical volume management), FTP
           details:
             - Independently designed and implemented this system including tech stack choice and functionality documentation.
             - Encapsulated underlying samba APIs into high level services called by  the management system.
 
         - name: Remote Desktop Client App
-          tech-stack: WPF( .Net C#), Android(Java), iOS, MacOS(obj-c), RDP
+          techStack: WPF( .Net C#), Android(Java), iOS, MacOS(obj-c), RDP
           des: Client app that makes connection to remote desktop which can be operated just like a local computer.
-            The app includes windows, MacOS, Android, iOS versions.
+            The app includes Windows, MacOS, Android, iOS versions.
           details:
             - Implemented 80% of core features, master the usages of different SDKs.
-            - Integrated RDP (remote desktop protocol) into different app frameworks.
+            - Integrated RDP (remote desktop protocol) libraries or executable into different app frameworks.
 
 projects:
   title: Other Projects
@@ -71,7 +71,7 @@ projects:
       info: group project, 2019
       des: A web app that provides consumers and health practitioners with questionnaire tools to measure their outcome of using their assistive technologies.
       demo: https://backend.at-outcomes.org
-      tech-stack: React, GraphQL, Material-UI, OAuth2, Typescript
+      techStack: React, GraphQL, Material-UI, OAuth2, Typescript
       details:
         - Strictly followed Agile process during the 6-month development cycle, acquired high comments from our client NDIS staff and university supervisor.
         - Participated in UI/UX design to meet special requirements of users with varied disabilities.
@@ -81,7 +81,7 @@ projects:
       des: A demonstration web app to showcase software architecture design and pattern implementation for modern enterprise systems.
       github: https://github.com/mchozhang/RoomBookingSystem
       demo: https://hotel-booker.herokuapp.com
-      tech-stack: JavaEE, Tomcat, PostgreSql, Heroku
+      techStack: JavaEE, Tomcat, PostgreSql, Heroku
       details:
         - Independently designed and implemented the system layering and patterns that fit the designated features.
         - School assignment that acquired full marks in the Software Design and Architecture course.

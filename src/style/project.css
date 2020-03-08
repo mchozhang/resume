@@ -1,0 +1,22 @@
+.project {
+  margin-bottom: 20px;
+}
+
+.project-header h4 {
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+.project-header p {
+  display: inline-block;
+  margin-left: 50px;
+  font-family: sans-serif;
+}
+
+.description {
+  color: #37474F
+}
+
+.tech-stack {
+  display: flex;
+}

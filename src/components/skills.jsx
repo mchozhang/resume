@@ -6,13 +6,14 @@ import React from "react"
 import PropTypes from "prop-types"
 import Caption from "./caption"
 import TechStack from "./tech-stack"
+import "../style/skills.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTasks } from "@fortawesome/free-solid-svg-icons"
 
 
 const Skills = (props) => {
   const skills = props.items.map((skill) =>
-    <div key={skill.title}>
+    <div key={skill.title} className="skill-type">
       <h5>{skill.title}</h5>
       <TechStack content={skill.content}/>
     </div>

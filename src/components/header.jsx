@@ -2,6 +2,8 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import chinesePic from "../images/chinese.svg"
+import englishPic from "../images/english.svg"
+
 
 const Header = (props) => (
   <header style={{ background: `#ffffff00` }}>
@@ -17,9 +19,8 @@ const Header = (props) => (
     >
       {/*small colored square*/}
       <h1 style={{
-        width: `auto`,
+        width: `40%`,
         color: `#ffffff00`,
-        // lineHeight: `0`,
         display: `block`,
         backgroundColor: `#01579B`,
       }}>
@@ -27,25 +28,53 @@ const Header = (props) => (
       </h1>
 
       {/*languages*/}
-      {/*<div style={{*/}
-      {/*  width: `fit-content`,*/}
-      {/*  display: `inline`,*/}
-      {/*  backgroundColor: `#fff44f00`,*/}
-      {/*  textAlign: `right`,*/}
-      {/*  marginTop: "5px"*/}
+      <div style={{
+        display: `inline`,
+        backgroundColor: `#fff44f00`,
+        textAlign: `right`,
+        marginTop: "5px",
 
-      {/*}}>*/}
-      {/*  <a style={{*/}
-      {/*    fontFamily: `sans-serif`,*/}
-      {/*    fontSize: "smaller",*/}
-      {/*    display: `flex`,*/}
-      {/*    justifyContent: `center`,*/}
-      {/*  }}>*/}
-      {/*    <img src={chinesePic} alt="China"*/}
-      {/*         width="20" height="20"/>*/}
-      {/*    中文*/}
-      {/*  </a>*/}
-      {/*</div>*/}
+      }}>
+
+        <div style={{
+          display: `inline-block`,
+        }}>
+          <a style={{
+            fontSize: `smaller`,
+            marginTop: 5,
+            marginRight: 10,
+            display: `flex`,
+            lineHeight: 1.4,
+          }}>
+            <img src={englishPic} alt="Eng"
+                 style={{
+                   display: "inline-block",
+                   marginRight: 5,
+                 }}
+                 width="20" height="20"/>
+            English
+          </a>
+        </div>
+
+        <div style={{
+          display: `inline-block`,
+        }}>
+          <a style={{
+            fontSize: "smaller",
+            marginTop: 5,
+            display: `flex`,
+            lineHeight: 1.4,
+          }}>
+            <img src={chinesePic} alt="China"
+                 style={{
+                   display: "inline-block",
+                   marginRight: 5,
+                 }}
+                 width="20" height="20"/>
+            中文
+          </a>
+        </div>
+      </div>
     </div>
   </header>
 )

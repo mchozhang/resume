@@ -14,7 +14,7 @@ import Skills from "../components/skills"
 const IndexPage = () => (
 
   <Layout>
-    <SEO title="Resume - Wenhao" />
+    <SEO title="Wenhao's Resume" />
 
     <Name>{content.info.name}</Name>
 
