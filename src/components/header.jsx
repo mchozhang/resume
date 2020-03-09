@@ -6,7 +6,7 @@ import React from "react"
 import "../style/header.css"
 import chinesePic from "../images/chinese.svg"
 import englishPic from "../images/english.svg"
-import { useResume } from "./layout"
+import { useResume } from "../data/resume-context"
 
 
 const Header = (props) => {
