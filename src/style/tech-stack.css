@@ -1,14 +1,14 @@
 .tech {
   display: inline-block;
   margin-right: 10px;
-  padding: 1px 5px;
+  padding: 0 5px;
   background-color: #01579B;
   color: white;
   font-size: small;
   border-radius: 5px;
 }
 
-.stack {
-  margin-left: 5px;
-}
+/*.stack {*/
+/*  margin-left: 0;*/
+/*}*/
 

@@ -18,5 +18,12 @@
 }
 
 .tech-stack {
+  margin-top: 5px;
+  width: 100%;
   display: flex;
+}
+
+.tech-stack a {
+  margin-right: 5px;
+  display: inline-block;
 }

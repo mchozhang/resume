@@ -23,7 +23,7 @@ const Employment = (props) => {
 
         <div className="company-info">
           <FontAwesomeIcon icon={faCalendarAlt} size={"sm"}/>
-          <a> {company.year}</a>
+          <a> {company.date}</a>
         </div>
       </div>
 

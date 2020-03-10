@@ -15,11 +15,11 @@ education:
   items:
     - name: University of Melbourne
       degree: Master of Software Engineering
-      year: 2018.7 - 2020.7 (expected)
+      date: 2018.7 - 2020.7 (expected)
 
     - name: Sun Yat-sen University, Guangzhou, China
       degree: Software Engineering (Bachelor)
-      year: 2011.9 - 2015.7
+      date: 2011.9 - 2015.7
 
 summary:
   title: Summary
@@ -37,17 +37,17 @@ employment:
   items:
     - name: Vinzor Information Technology Ltd.
       city: Guangzhou, China
-      year: 2015 - 2018
+      date: 2015.7 - 2018.2
       projects:
         - name: Educational Private Cloud Desktop Management System
           des: An IaaS cloud computing product that provides remote desktops to students and enables administrators
             to configure the allocation process.
           techStack: Openstack, Flask, jQuery, MySql, Apache, Shell, Python, Javascript
           details:
-            - RESTful API design and implementation.
             - Front-end development using Bootstrap, Ajax, jQuery.
+            - RESTful API design and implementation.
             - Created deployment script for the system to be deployed on offline Linux server.
-            - Code refactoring on log module to increase stability and reduce bugs.
+            - Code refactoring on modules such as logging to increase stability and reduce bugs.
 
         - name: Mountable Storage Space Allocation System
           des: Provides individual or shared storage spaces that can be mount on remote desktops and accessed like local disks.
@@ -64,6 +64,17 @@ employment:
             - Implemented 80% of core features, master the usages of different SDKs.
             - Integrated RDP (remote desktop protocol) libraries or executable into different app frameworks.
 
+    - name: Teligen Technology Ltd.
+      city: Guangzhou, China
+      date: 2018.2 -2018.6
+      projects:
+        - name: Police Patrolling Recording Web Application
+          techStack: Angular, JavaEE, Oracle, Baidu Map SDK, WebRTC(RTMP)
+          details:
+            - Used Baidu Map SDK to display information such as patrolling routes on the interactive map.
+            - Research available WebRTC front-end libraries, implemented a demo to display video live stream with
+              TXLive SDK which was finally applied as the solution.
+
 projects:
   title: Other Projects
   items:
@@ -74,6 +85,7 @@ projects:
       techStack: React, GraphQL, Material-UI, OAuth2, Typescript
       details:
         - Strictly followed Agile process during the 6-month development cycle, acquired high comments from our client NDIS staff and university supervisor.
+        - Configured OAuth2 libraries and relevant developer accounts to enable 3rd party account to login without signing up.
         - Participated in UI/UX design to meet special requirements of users with varied disabilities.
 
     - name: Booker - Room Booking System

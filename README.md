@@ -15,7 +15,7 @@ and deploy on github pages.
     ├── components      # react jsx components
     ├── images          # images
     ├── pages           # home page and 404
-    ├── resume.yaml     # resume data 
+    ├── data            # resume data and context provider
     └── style           # css files
 
 ```
