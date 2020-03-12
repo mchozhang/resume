@@ -66,7 +66,7 @@ const Project = (props) => {
       </div>
 
       {/*details*/}
-      <div>
+      <div className="details">
         <ul>
           {details}
         </ul>

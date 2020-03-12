@@ -40,13 +40,13 @@ employment:
       date: 2015.7 - 2018.2
       projects:
         - name: Educational Private Cloud Desktop Management System
-          des: An IaaS cloud computing product that provides remote desktops to students and enables administrators
-            to configure the allocation process.
+          des: An IaaS cloud computing product that can schedule resources according to class timetable and
+            provides specify cloud desktops to students for educational purpose.
           techStack: Openstack, Flask, jQuery, MySql, Apache, Shell, Python, Javascript
           details:
             - Front-end development using Bootstrap, Ajax, jQuery.
-            - RESTful API design and implementation.
-            - Created deployment script for the system to be deployed on offline Linux server.
+            - RESTful APIs design and implementation.
+            - Implemented deployment script for the system to be deployed on offline Linux server.
             - Code refactoring on modules such as logging to increase stability and reduce bugs.
 
         - name: Mountable Storage Space Allocation System
@@ -78,6 +78,16 @@ employment:
 projects:
   title: Other Projects
   items:
+    - name: Online Resume
+      info: individual project, 2020
+      des: Static Website for personal resume built in React with Gatsby, and deployed on Github Pages.
+      demo: https://mchozhang.github.io/resume
+      github: https://github.com/mchozhang/resume
+      techStack: React, Gatsby, Github Pages
+      details:
+        - Used Gatsby to efficiently build a static web page and load resume data from yaml file.
+        - Take advantage of client-side rendering to achieve fast interactions such as content switch.
+
     - name: Assistive Technology Outcome Framework
       info: group project, 2019
       des: A web app that provides consumers and health practitioners with questionnaire tools to measure their outcome of using their assistive technologies.
@@ -85,8 +95,8 @@ projects:
       techStack: React, GraphQL, Material-UI, OAuth2, Typescript
       details:
         - Strictly followed Agile process during the 6-month development cycle, acquired high comments from our client NDIS staff and university supervisor.
-        - Configured OAuth2 libraries and relevant developer accounts to enable 3rd party account to login without signing up.
-        - Participated in UI/UX design to meet special requirements of users with varied disabilities.
+        - Configured the Auth0 module and related developer accounts, which used OAuth2 to implement authorized login of 3rd party accounts such as Facebook and Google.
+        - Participated in UI/UX design on to meet special requirements of users with varied disabilities, such as high contrast mode and compatibility with audio devices.
 
     - name: Booker - Room Booking System
       info: individual project, 2019
@@ -101,6 +111,9 @@ projects:
 skills:
   title: Skills
   items:
+    - title: Programming Language
+      content: Python, Java, Go, Javascript, Node.js, Shell, C#
+
     - title: Front-end Framework
       content: React, Angular
 
@@ -115,6 +128,3 @@ skills:
 
     - title: Client App
       content: Windows WPF, Android(Java), iOS(obj-C)
-
-    - title: Programming Language
-      content: Python, Java, Go, Javascript, Node.js, Shell, C#

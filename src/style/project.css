@@ -14,7 +14,12 @@
 }
 
 .description {
+  margin-top: 5px;
   color: #37474F
+}
+
+.details {
+ margin-top: 5px;
 }
 
 .tech-stack {

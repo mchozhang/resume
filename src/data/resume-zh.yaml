@@ -24,85 +24,93 @@ education:
 summary:
   title: 简介
   items:
-    - Versatile developer with 3 years of experience in web apps and client apps including the relevant
-      initialization and deployment processes.
-    - Fast learner, have mastered the key features of new techniques within short period in practical projects such
-      as Flask, Express, React.
-    - Deep understanding about Agile process, have worked in Agile team with people having various backgrounds.
-    - Write high-quality maintainable code which is consistent with the "Clean Code" handbook.
-    - Deep knowledge of computer science such as operating system, database and computer network.
+    - 多栖开发工程师，拥有3年以上的web应用及客户端应用实际项目开发经验，包括其构建及部署流程。
+    - 拥有快速学习能力，曾在Flask、Express、React等项目中用短时间掌握其中新技术的重要特性。
+    - 熟悉敏捷开发流程，曾在多个敏捷开发团队中与不同背景的成员良好合作。
+    - 认识《Clean Code》一书中的编程哲学，编写可读可维护的高质量代码。
+    - 拥有扎实的计算机科学知识，包括数据结构、操作系统、数据库、计算机网络等。
 
 employment:
   title: 工作经历
   items:
-    - name: Vinzor Information Technology Ltd.
-      city: Guangzhou, China
-      year: 2015 - 2018
+    - name: 广州云晫信息科技有限公司
+      city: 广州
+      date: 2015 - 2018
       projects:
-        - name: Educational Private Cloud Desktop Management System
-          des: An IaaS cloud computing product that provides remote desktops to students and enables administrators
-            to configure the allocation process.
+        - name: 教务私有云桌面管理系统
+          des: IaaS云计算产品，能按照课程表实现资源调度，向学生提供上课指定使用的云桌面
           techStack: Openstack, Flask, jQuery, MySql, Apache, Shell, Python, Javascript
           details:
-            - RESTful API design and implementation.
-            - Front-end development using Bootstrap, Ajax, jQuery.
-            - Created deployment script for the system to be deployed on offline Linux server.
-            - Code refactoring on log module to increase stability and reduce bugs.
+            - 设计和实现RESTful API。
+            - 使用jQuery、Ajax、Bootstrap等工具进行前端开发
+            - 编写能够使整个系统部署在离线Linux物理服务器的Shell部署脚本。
+            - 对日志模块等功能进行代码重构，提高系统稳定性并减少bug产生。
 
-        - name: Mountable Storage Space Allocation System
-          des: Provides individual or shared storage spaces that can be mount on remote desktops and accessed like local disks.
+        - name: 可挂载的存储空间分配系统
+          des: 提供个人或共享的网盘空间，可挂载在云桌面中，使其能够被如本地磁盘一般地访问。
           techStack: Samba, Linux LVM(logical volume management), FTP
           details:
-            - Independently designed and implemented this system including tech stack choice and functionality documentation.
-            - Encapsulated underlying samba APIs into high level services called by  the management system.
+            - 独立设计及实现整个系统，包括技术栈选择及功能文档编写。
+            - 对底层的Samba API进行封装成为能被管理系统直接调用的高级接口。
 
-        - name: Remote Desktop Client App
+        - name: 云桌面客户端程序
           techStack: WPF( .Net C#), Android(Java), iOS, MacOS(obj-c), RDP
-          des: Client app that makes connection to remote desktop which can be operated just like a local computer.
-            The app includes Windows, MacOS, Android, iOS versions.
+          des: 连接云桌面的客户端程序，使用户能像对本地计算机一样对云桌面进行操作。客户端包括windows、MacOS、Android、iOS版本。
           details:
-            - Implemented 80% of core features, master the usages of different SDKs.
-            - Integrated RDP (remote desktop protocol) libraries or executable into different app frameworks.
+            - 实现80%的核心功能，掌握不同SDK的使用方法。
+            - 将RDP(远程桌面协议)的库或可执行程序集成进不同的应用框架中。
 
 projects:
   title: 其他项目
   items:
-    - name: Assistive Technology Outcome Framework
-      info: group project, 2019
-      des: A web app that provides consumers and health practitioners with questionnaire tools to measure their outcome of using their assistive technologies.
+    - name: 在线简历
+      info: 个人项目, 2020
+      des: 使用React + Gatsby搭建的在线个人简历静态网页，部署在Github Pages。
+      demo: https://mchozhang.github.io/resume
+      github: https://github.com/mchozhang/resume
+      techStack: React, Gatsby, Github Pages
+      details:
+        - 使用Gatsby快速构建静态网页，并从yaml格式文件中加载页面数据。
+        - 利用客户端渲染的优势实现网页快速响应的交互，例如切换语言等。
+
+    - name: 残疾人辅助设备评估系统
+      info: 团队项目, 2019
+      des: 为残疾辅助设备消费者及从业人员提供设备成效调查工具的网页应用。
       demo: https://backend.at-outcomes.org
       techStack: React, GraphQL, Material-UI, OAuth2, Typescript
       details:
-        - Strictly followed Agile process during the 6-month development cycle, acquired high comments from our client NDIS staff and university supervisor.
-        - Participated in UI/UX design to meet special requirements of users with varied disabilities.
+        - 在6个月的开发周期中严格遵从敏捷开发流程，项目成果受到客户NDIS(澳洲国家残疾人保险计划)和大学导师的高度评价。
+        - 进行对Auth0模块和相关开发者账号的相关配置，利用OAuth2实现第三方账户如Facebook、Google的授权登录。
+        - 参与前端UI/UX设计，满足不同残疾人士的特别需求，例如高对比度模式和兼容发音设备等。
 
-    - name: Booker - Room Booking System
-      info: individual project, 2019
-      des: A demonstration web app to showcase software architecture design and pattern implementation for modern enterprise systems.
+    - name: Booker - 客房预订系统
+      info: 个人项目, 2019
+      des: 对现代企业系统中常用软件架构和设计模式实现的示范网页应用。
       github: https://github.com/mchozhang/RoomBookingSystem
       demo: https://hotel-booker.herokuapp.com
       techStack: JavaEE, Tomcat, PostgreSql, Heroku
       details:
-        - Independently designed and implemented the system layering and patterns that fit the designated features.
-        - School assignment that acquired full marks in the Software Design and Architecture course.
+        - 独立设计和实现系统的结构分层，和选择符合业务功能的设计模式。
+        - 在软件设计和架构(Software Design and Architecture)课程中获得满分的作品。
 
 skills:
   title: 技能
   items:
-    - title: Front-end Framework
+    - title: 编程语言
+      content: Python, Java, Go, Javascript, Node.js, Shell, C#
+
+    - title: 前端框架
       content: React, Angular
 
-    - title: Front-end Library
+    - title: 前端工具库
       content: jQuery, Material-UI, Bootstrap
 
-    - title: Backend-end Framework
+    - title: 后端框架
       content: Flask, Express, JavaEE
 
-    - title: Database
+    - title: 数据库
       content: MySql, PostgreSql, Oracle, MongoDB
 
-    - title: Client App
+    - title: 客户端应用
       content: Windows WPF, Android(Java), iOS(obj-C)
 
-    - title: Programming Language
-      content: Python, Java, Go, Javascript, Node.js, Shell, C#

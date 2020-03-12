@@ -8,7 +8,7 @@ import Employment from "../components/employment"
 import Education from "../components/education"
 import Projects from "../components/Projects"
 import Skills from "../components/skills"
-import { ResumerProvider, useResume } from "../data/resume-context"
+import { ResumerProvider, useResume } from "../components/resume-context"
 
 const MainPage = (props) => {
   const { content } = useResume();
