@@ -24,89 +24,113 @@ education:
 summary:
   title: Summary
   items:
-    - Versatile developer with 3 years of experience in web apps and client apps including the relevant
-      initialization and deployment processes.
-    - Fast learner, have mastered the key features of new techniques within short period in practical projects such
-      as Flask, Express, React.
-    - Deep understanding about Agile process, have worked in Agile team with people having various backgrounds.
-    - Write high-quality maintainable code which is consistent with the "Clean Code" handbook.
-    - Deep knowledge of computer science such as operating system, database and computer network.
+    - Productive full-stack developer with 3 year’s working experience in web applications.
+    - Project-based experience in various backend frameworks including Flask, AWS Lambda,
+      Express, and frontend technologies including React.js, jQuery.
+    - Proficient in programming languages such as Python, Javascript, Go, Java.
+    - Familiar with MySQL and MongoDB including data modelling and performance optimization technics.
+    - Have understanding in DevOps and experience in building CI/CD pipelines in AWS, Heroku.
+    - Deep understanding about Agile process, have worked in Agile teams with people having various backgrounds.
+    - Graduated with the degree of Master of Software Engineering in University of Melbourne.
 
 employment:
-  title: Employment
+  title: Professional Experience
   items:
     - name: Vinzor Information Technology Ltd.
+      des: Educational desktop provider – IaaS private cloud system
       city: Guangzhou, China
       date: 2015.7 - 2018.2
       projects:
-        - name: Educational Private Cloud Desktop Management System
-          des: An IaaS cloud computing product that can schedule resources according to class timetable and
-            provides specify cloud desktops to students for educational purpose.
-          techStack: Openstack, Flask, jQuery, MySql, Apache, Shell, Python, Javascript
+        - name: Cloud Desktop Management System
+          techStack: Flask, jQuery, MySql, Apache, Shell, Python, Javascript
           details:
-            - Front-end development using Bootstrap, Ajax, jQuery.
-            - RESTful APIs design and implementation.
-            - Implemented deployment script for the system to be deployed on offline Linux server.
-            - Code refactoring on modules such as logging to increase stability and reduce bugs.
+            - Designed and implemented RESTful APIs in Flask and Python
+            - Implemented frontend features used by most of school administrators using jQuery, Ajax, Bootstrap
+            - Designed data models in MySQL and built indexes increasing query speed
+            - Built up code standard and examples to help the team reduce bugs and improve system maintainability
 
-        - name: Mountable Storage Space Allocation System
-          des: Provides individual or shared storage spaces that can be mount on remote desktops and accessed like local disks.
-          techStack: Samba, Linux LVM(logical volume management), FTP
+        - name: Storage Allocation System
+          techStack: Samba, Linux LVM(logical volume management), FTP, Python
           details:
-            - Independently designed and implemented this system including tech stack choice and functionality documentation.
-            - Encapsulated underlying samba APIs into high level services called by  the management system.
+            - Provided individual and shared cloud drives that are mountable on Windows and Linux system
+            - Encapsulated underlying Samba, FTP, Linux LVM functions into high-level services
+            - Built installation package and deployment script using Shell, enabling the system to be installed in a Linux server in offline mode
+            - A key feature covering 60% of teaching scenarios
 
-        - name: Remote Desktop Client App
-          techStack: WPF( .Net C#), Android(Java), iOS, MacOS(obj-c), RDP
-          des: Client app that makes connection to remote desktop which can be operated just like a local computer.
-            The app includes Windows, MacOS, Android, iOS versions.
+        - name: Websocket Module for both client and server sides
+          techStack: WebSocket, Redis, Python, C#
           details:
-            - Implemented 80% of core features, master the usages of different SDKs.
-            - Integrated RDP (remote desktop protocol) libraries or executable into different app frameworks.
+            - Enabled 2-way message sending between students and lab administrators
+            - Enabled administrators to control lab computers in batch such as booting, shutdown
+            - Used Redis message queue in server side to communicate with other sub-systems
+
+        - name: Windows Client Application
+          techStack: WPF(.Net C#), RDP
+          details:
+            - Enabled connection to cloud desktop through RDP
+            - Implemented a new version of UI/UX using WPF .NET framework in C#.
+            - Implemented logging module increasing problem addressing efficiency by 50%
+            - Implemented desktop reconnection mechanism eliminating failure scenarios by 30%
+            - Resulted in 80% positive reviews more than the old version
 
     - name: Teligen Technology Ltd.
       city: Guangzhou, China
       date: 2018.2 -2018.6
       projects:
-        - name: Police Patrolling Recording Web Application
-          techStack: Angular, JavaEE, Oracle, Baidu Map SDK, WebRTC(RTMP)
+        - name: Handled development tasks of the JavaEE web application
+          techStack: Angular, JavaEE, Oracle
           details:
-            - Used Baidu Map SDK to display information such as patrolling routes on the interactive map.
-            - Research available WebRTC front-end libraries, implemented a demo to display video live stream with
-              TXLive SDK which was finally applied as the solution.
+            - Used Baidu-map SDK to display information such as patrolling routes on the interactive map.
+            - Represented Vinzor company to initiate a partnership programme with Teligen. Worked with development lead
+              to build up development process and get familiar with the working environment.
 
 projects:
-  title: Other Projects
+  title: Personal Projects
   items:
-    - name: Online Resume
-      info: individual project, 2020
-      des: Static Website for personal resume built in React with Gatsby, and deployed on Github Pages.
-      demo: https://mchozhang.github.io/resume
-      github: https://github.com/mchozhang/resume
-      techStack: React, Gatsby, Github Pages
+    - name: Web Game - Harmony
+      info: Jul 2020
+      des: React web app - a puzzle game simulating the iOS game Har.mo.ny3 on app store.
+      demo: https://master.dg9tray1uvpm6.amplifyapp.com
+      github: https://github.com/mchozhang/harmony-game
+      techStack: React.js, GraphQL, Webpack, AWS Lambda, Go, DynamoDB, Tensorflow, Deep Q-Learning
       details:
-        - Used Gatsby to efficiently build a static web page and load resume data from yaml file.
-        - Take advantage of client-side rendering to achieve fast interactions such as content switch.
+        - Implemented aesthetic UI using Ant.D, Less and advanced React features such as Hooks, Context
+        - Used Webpack to configure the frontend product build
+        - Implemented Serverless backend using AWS lambda function, DynamoDB and Go, handling GraphQL queries
+        - Built a deep Q-learning agent to solve the game solution using Tensorflow
+        - Leveraged technics such as illegal action mask, double Q-learning, replay buffer to optimize training efficiency
 
     - name: Assistive Technology Outcome Framework
-      info: group project, 2019
-      des: A web app that provides consumers and health practitioners with questionnaire tools to measure their outcome of using their assistive technologies.
+      info: group project, Jul 2019
+      des: React app providing questionnaire tools to health practitioners to measure their assistive technologies.
       demo: https://backend.at-outcomes.org
       techStack: React, GraphQL, Material-UI, OAuth2, Typescript
       details:
-        - Strictly followed Agile process during the 6-month development cycle, acquired high comments from our client NDIS staff and university supervisor.
-        - Configured the Auth0 module and related developer accounts, which used OAuth2 to implement authorized login of 3rd party accounts such as Facebook and Google.
-        - Participated in UI/UX design on to meet special requirements of users with varied disabilities, such as high contrast mode and compatibility with audio devices.
+        - Implemented different vision styles for special needs of users with varied disabilities using Material.io
+        - Configured the Auth0 module to implemented Facebook and Google account login using OAuth2
+        - Strictly followed Agile process to tackle variable requirements during the 6-month development cycle
+        - Acquired positive reviews from the client NDIS staff and representatives of disabled users
 
-    - name: Booker - Room Booking System
-      info: individual project, 2019
-      des: A demonstration web app to showcase software architecture design and pattern implementation for modern enterprise systems.
+    - name: Booker - Room Reservation System
+      info: Jul 2019
+      des: A JavaEE web app to demonstrate software architecture design for traditional enterprise system
       github: https://github.com/mchozhang/RoomBookingSystem
       demo: https://hotel-booker.herokuapp.com
       techStack: JavaEE, Tomcat, PostgreSql, Heroku
       details:
-        - Independently designed and implemented the system layering and patterns that fit the designated features.
-        - School assignment that acquired full marks in the Software Design and Architecture course.
+        - Implemented the layered system using advanced design patterns that fit the designated features
+        - Designed data model and data mapper to perform SQL queries in PostgreSQL
+        - Implemented JSP frontend using Bootstrap, jQuery, Ajax
+
+    - name: Online Resume
+      info: Mar 2020
+      des: React.js-based online resume template for developers
+      github: https://github.com/mchozhang/resume
+      demo: https://mchozhang.github.io/resume/
+      techStack: React.js, Gatsby, Github Pages
+      details:
+        - Used Gatsby to efficiently build a static React app to display personal resume
+        - Enabled language switch and loading resume data from yaml files
 
 skills:
   title: Skills
@@ -114,17 +138,14 @@ skills:
     - title: Programming Language
       content: Python, Java, Go, Javascript, Node.js, Shell, C#
 
-    - title: Front-end Framework
-      content: React, Angular
+    - title: Frontend Technologies
+      content: React, jQuery, Bootstrap
 
-    - title: Front-end Library
-      content: jQuery, Material-UI, Bootstrap
-
-    - title: Backend-end Framework
-      content: Flask, Express, JavaEE
+    - title: Backend Framework
+      content: Flask, Serverless, Express, JavaEE
 
     - title: Database
-      content: MySql, PostgreSql, Oracle, MongoDB
+      content: MySql, MongoDB, PostgreSQL
 
     - title: Client App
       content: Windows WPF, Android(Java), iOS(obj-C)
