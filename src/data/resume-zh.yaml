@@ -99,18 +99,25 @@ skills:
     - title: 编程语言
       content: Python, Java, Go, Javascript, Node.js, Shell, C#
 
-    - title: 前端框架
-      content: React, Angular
-
-    - title: 前端工具库
-      content: jQuery, Material-UI, Bootstrap
+    - title: 前端技术
+      content: React, jQuery, Bootstrap, Webpack
 
     - title: 后端框架
-      content: Flask, Express, JavaEE
+      content: Flask, Serverless, Express, JavaEE
 
     - title: 数据库
-      content: MySql, PostgreSql, Oracle, MongoDB
+      content: MySql, MongoDB, PostgreSQL
 
     - title: 客户端应用
       content: Windows WPF, Android(Java), iOS(obj-C)
 
+awards:
+  title: 获奖
+  items:
+    - name: 年度优秀学生奖学金(奖学金¥3000)
+      date: 2013
+      ratio: < 10%
+
+    - name: 微软创新杯,中山大学赛区二等奖
+      date: 2014
+      ratio: < 5%

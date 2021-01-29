@@ -9,7 +9,6 @@ import "../style/education.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons"
 
-
 const Education = (props) => {
   const schools = props.items.map((school) =>
     <div key={school.name} className="school">

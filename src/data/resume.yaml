@@ -82,7 +82,7 @@ employment:
           details:
             - Used Baidu-map SDK to display information such as patrolling routes on the interactive map.
             - Represented Vinzor company to initiate a partnership programme with Teligen. Worked with development lead
-              to build up development process and get familiar with the working environment.
+              to coordinate development process and the working environment.
 
 projects:
   title: Personal Projects
@@ -139,7 +139,7 @@ skills:
       content: Python, Java, Go, Javascript, Node.js, Shell, C#
 
     - title: Frontend Technologies
-      content: React, jQuery, Bootstrap
+      content: React, jQuery, Bootstrap, Webpack
 
     - title: Backend Framework
       content: Flask, Serverless, Express, JavaEE
@@ -149,3 +149,14 @@ skills:
 
     - title: Client App
       content: Windows WPF, Android(Java), iOS(obj-C)
+
+awards:
+  title: Awards
+  items:
+    - name: Outstanding Student of the Year (Scholarship, $600)
+      date: 2013
+      ratio: < 10%
+
+    - name: Microsoft Innovation Cup, 2nd-class prize of the campus.
+      date: 2014
+      ratio: < 5%
