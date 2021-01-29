@@ -21,7 +21,7 @@ const Menu = (props) => {
         <li><a href="#skills">{content.skills.title}</a></li>
         <li><a href="#awards">{content.awards.title}</a></li>
         <li>
-          <a href="#top" style={{textAlign: 'center'}}>
+          <a href="#" style={{textAlign: 'center'}}>
             <FontAwesomeIcon icon={faArrowUp}/>
           </a>
         </li>

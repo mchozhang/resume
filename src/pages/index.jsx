@@ -24,7 +24,6 @@ const MainPage = (props) => {
       <Layout>
         <SEO title="Wenhao's Resume"/>
 
-        <div id="top"/>
         <Name> {content.info.name}</Name>
         <Contact content={content.info}/>
 
