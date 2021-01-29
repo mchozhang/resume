@@ -11,6 +11,9 @@ import Skills from "../components/skills"
 import Awards from "../components/awards"
 import { ResumerProvider, useResume } from "../components/resume-context"
 import Menu from "../components/menu"
+import {config} from "@fortawesome/fontawesome-svg-core";
+
+config.autoAddCss = false
 
 const MainPage = (props) => {
   const { content } = useResume()
