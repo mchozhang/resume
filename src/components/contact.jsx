@@ -26,7 +26,7 @@ const Contact = (props) => {
       {/*github*/}
       <div className="contact-item">
         <FontAwesomeIcon icon={faGithub} size={"sm"}/>
-        <a href={`https://` + props.github}
+        <a href={`https://` + props.content.github}
            target="_blank"
            rel="noopener noreferrer"> {props.content.github}</a>
       </div>
@@ -34,7 +34,7 @@ const Contact = (props) => {
       {/*linked-in*/}
       <div className="contact-item">
         <FontAwesomeIcon icon={faLinkedin} size={"sm"}/>
-        <a href={`https://` + props.linkedin}
+        <a href={`https://` + props.content.linkedin}
            target="_blank"
            rel="noopener noreferrer"> {props.content.linkedin}</a>
       </div>
